@@ -1,56 +1,70 @@
-# GitHub Docs <!-- omit in toc -->
+# Getting Started with Create React App
 
-This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-GitHub's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.
+## Available Scripts
 
-Use the table of contents icon <img src="/contributing/images/table-of-contents.png" width="25" height="25" /> on the top left corner of this document to navigate to a specific section quickly.
+In the project directory, you can run:
 
-## Contributing
+### `npm start`
 
-See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-We accept different [types of contributions](https://github.com/github/docs/blob/main/contributing/types-of-contributions.md), including some that don't require you to write a single line of code.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-On the GitHub Docs site, you can click the make a contribution button at the bottom of the page to open a pull request for quick fixes like typos, updates, or link fixes.
+### `npm test`
 
-<img src="./contributing/images/contribution_cta.png" width="400">
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/github/docs/issues/new/choose) to describe the changes you'd like to see.
+### `npm run build`
 
-If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/github/docs/issues) for something to work on. When ready, check out [Getting Started with Contributing](/CONTRIBUTING.md) for detailed instructions.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Join us in discussions
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-We use GitHub Discussions to talk about all sorts of topics related to documentation and this site. For example: if you'd like help troubleshooting a PR, have a great new idea, or want to share something amazing you've learned in our docs, join us in the [discussions](https://github.com/github/docs/discussions).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### And that's it!
+### `npm run eject`
 
-If you're having trouble with your GitHub account, contact [Support](https://support.github.com).
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-That's how you can easily become a member of the GitHub Docs community. :sparkles:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## READMEs
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-In addition to the README you're reading right now, this repo includes other READMEs that describe the purpose of each subdirectory in more detail:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- [content/README.md](content/README.md)
-- [content/graphql/README.md](content/graphql/README.md)
-- [content/rest/README.md](content/rest/README.md)
-- [contributing/README.md](contributing/README.md)
-- [data/README.md](data/README.md)
-- [data/reusables/README.md](data/reusables/README.md)
-- [data/variables/README.md](data/variables/README.md)
-- [src/README.md](src/README.md)
+## Learn More
 
-## License
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-The GitHub product documentation in the assets, content, and data folders are licensed under a [CC-BY license](LICENSE).
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-All other code in this repository is licensed under the [MIT license](LICENSE-CODE).
+### Code Splitting
 
-When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Thanks :purple_heart:
+### Analyzing the Bundle Size
 
-Thanks for all your contributions and efforts towards improving the GitHub documentation. We thank you for being part of our :sparkles: community :sparkles:!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
